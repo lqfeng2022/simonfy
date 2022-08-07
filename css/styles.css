@@ -605,7 +605,7 @@ a { text-decoration: none; }
 
 /* Navigation Bar */
 .nav {
-    background: #fff;
+    background: rgba(0, 0, 0, 0.8);
     /* opacity: 0.8; */
     display: flex;
     flex-wrap: wrap;
@@ -626,7 +626,7 @@ a { text-decoration: none; }
 }
 
 .nav__item > a {
-    color: #000;
+    color: #fff;
     transition: color .3s;
 }
 .nav__item > a:hover {
@@ -750,7 +750,8 @@ a { text-decoration: none; }
 }
 
 .feature__image {
-    border: 1px solid lightgray;
+    border: 5px solid lightgray;
+    border-radius: 5px;
 }
 
 /* Exchange the order of content and image of the 2nd.. */
