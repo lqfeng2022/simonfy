@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Deploy your websites .." />
+    <meta property="og:title" content="Simonfy... " />
+    <meta property="og:description" content="Simonfy... " />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://" />
+    <meta property="og:url" content="https://simonfied.com" />
+    <title>Simonfy - Go Online for Just $9</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- 1)nav-bar -->
+    <header>
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <svg class="icon icon--primary nav__toggler">
+          <use href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="#">Login</a></li>
+          <li class="nav__item"><a href="#">Notes</a></li>
+          <li class="nav__item"><a href="#">Blog</a></li>
+          <li class="nav__item"><a href="#">Game</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- 2)block-hero -->
+    <section class="block block--gradient block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading">My name is Lee Qiufeng</h1>
+          <p class="hero__tagline">
+            Welcome to my space, it's a personal space for sharing and
+            communication about Computer Science :)
+          </p>
+        </header>
+        <img class="hero__image" src="images/hero.jpg" alt="" />
+      </div>
+    </section>
+    <!-- 3)block-domain -->
+    <section data-aos="zoom-in-up" class="block container block-domain">
+      <header class="block__header">
+        <h2>Let's start our first adventure</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
+          obcaecati.
+        </p>
+      </header>
+      <div class="input-group">
+        <input type="text" class="input" placeholder="codewithmosh.com" />
+        <button class="btn btn--accent">
+          <svg class="icon icon--white">
+            <use href="images/sprite.svg#search"></use>
+          </svg>
+          Search
+        </button>
+      </div>
+      <ul class="list block-domain__prices">
+        <li>.html 1st</li>
+        <li><span class="badge badge--secondary">.css 2nd</span></li>
+        <li>.js 3th</li>
+        <li>.java 4th</li>
+        <li>.py 5th</li>
+      </ul>
+    </section>
+    <!-- 4)block-plans -->
+    <section class="block container block-plans">
+      <div class="grid grid--1x3">
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <h3 class="plan__name">GET</h3>
+              <span class="plan__price">$0.1m</span>
+              <span class="plan__billing-cycle">/year</span>
+              <span class="badge badge--secondary badge--sml">1st level</span>
+              <span class="plan__description">Easy to get</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Front-Stack Developer</li>
+                <li class="list__item">Back-Stack Developer</li>
+                <li class="list__item">Software Engineer</li>
+                <li class="list__item">DATA Analyst</li>
+              </ul>
+              <button class="btn btn--outline btn--block">let's start</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan plan--popular">
+          <div class="card card--accent">
+            <header class="card__header">
+              <h3 class="plan__name">GET</h3>
+              <span class="plan__price">$1m</span>
+              <span class="plan__billing-cycle">/year</span>
+              <span class="badge badge--primary badge--sml">Hit it</span>
+              <span class="plan__description">Fly</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Autopilot</li>
+                <li class="list__item">Artificial Intelligence</li>
+                <li class="list__item">Metaverse/VR/AR</li>
+                <li class="list__item">Quantum computer</li>
+              </ul>
+              <button class="btn btn--outline btn--block">let's start</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--primary">
+            <header class="card__header">
+              <h3 class="plan__name">GET</h3>
+              <span class="plan__price">$0.5m</span>
+              <span class="plan__billing-cycle">/year</span>
+              <span class="badge badge--secondary badge--sml">Go for it</span>
+              <span class="plan__description">The 2nd target</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Full-stack Developer</li>
+                <li class="list__item">DATA Architecture</li>
+                <li class="list__item">DATA Scientist</li>
+                <li class="list__item">DATA Structure & Algorithm</li>
+              </ul>
+              <button class="btn btn--outline btn--block">let's start</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 5)block-features -->
+    <section class="block container">
+      <header class="block__header">
+        <h2>Learn online and keep going for your dream</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
+          animi.
+        </p>
+      </header>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="zoom-in-up">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Super Easy to Learn</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+            laboriosam asperiores mollitia et repellat necessitatibus provident
+            quae quaerat earum rem.
+          </p>
+          <a
+            href="https://www.youtube.com/watch?v=tpIctyqH29Q&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye"
+            class="link-arrow"
+            >Let's go</a
+          >
+        </div>
+        <picture data-aos="zoom-in-up">
+          <img class="feature__image" src="images/cruss_course@2x.png" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div data-aos="fade-up" class="feature__content">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#computer"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Super Easy to Learn</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+            laboriosam asperiores mollitia et repellat necessitatibus provident
+            quae quaerat earum rem.
+          </p>
+          <a
+            href="https://www.youtube.com/watch?v=tpIctyqH29Q&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye"
+            class="link-arrow"
+            >Let's go</a
+          >
+        </div>
+        <picture>
+          <img class="feature__image" src="images/algorithm@2x.png" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-up">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#wordpress"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Super Easy to Learn</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+            laboriosam asperiores mollitia et repellat necessitatibus provident
+            quae quaerat earum rem.
+          </p>
+          <a
+            href="https://www.youtube.com/watch?v=tpIctyqH29Q&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye"
+            class="link-arrow"
+            >Let's go</a
+          >
+        </div>
+        <picture>
+          <img class="feature__image" src="images/os@2x.png" alt="" />
+        </picture>
+      </article>
+      <article class="grid grid--1x2 feature">
+        <div class="feature__content" data-aos="fade-up">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#clock"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Super Easy to Learn</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+            laboriosam asperiores mollitia et repellat necessitatibus provident
+            quae quaerat earum rem.
+          </p>
+          <a
+            href="https://www.youtube.com/watch?v=tpIctyqH29Q&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye"
+            class="link-arrow"
+            >Let's go</a
+          >
+        </div>
+        <picture>
+          <img class="feature__image" src="images/ai@2x.png" alt="" />
+        </picture>
+      </article>
+    </section>
+    <!-- 6)block-showcase -->
+    <section class="block block--dark block--skewed-left block-showcase">
+      <header class="block__header container">
+        <h2 class="block__heading">Let's see somone nodes below</h2>
+      </header>
+      <div class="grid grid--1x2">
+        <picture class="block-showcase__image" data-aos="fade-right">
+          <img src="images/ipad@2x.png" alt="" />
+        </picture>
+        <ul class="list list--showcase" data-aos="fade-up">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/sprite.svg#menu"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Cruss Course & Computer Science</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, soluta at. Quis labore soluta enim.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/sprite.svg#growth"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">DATA Structure/Algorithm</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                  ex excepturi cupiditate nobis quam optio perferendis adipisci?
+                  Obcaecati, temporibus quae!
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use href="images/sprite.svg#easy"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">OOL/Java&JavaScript&Python</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Reprehenderit ducimus fuga ab sunt impedit, repellendus omnis
+                  quae ullam non alias.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- 7)block-testimonials -->
+    <section class="block" data-aos="zoom-in">
+      <header class="block__header">
+        <h2 class="block__heading">What Descartes said</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </header>
+      <div class="card testimonial">
+        <div class="grid grid--1x2">
+          <div class="testimonial__image">
+            <img src="images/descartes.jpg" alt="A happy, smiling customer" />
+            <span class="icon-container icon-container--accent">
+              <svg class="icon icon--white icon--sml">
+                <use href="images/sprite.svg#quotes"></use>
+              </svg>
+            </span>
+          </div>
+          <blockquote class="quote">
+            <p class="quote__text">
+              I entirely abandanded the study of letters. Resolving to seek no
+              knowledge other than that of which could be found in myself or
+              else in the great book of the world, I spent the rest of my youuth
+              traveling, visiting courts and armies, mixing with people of
+              diverse temperaments and ranks, gathering various experiences,
+              testing myself in the situation which fortune offered me, and at
+              all times reflecting upon whatever came my way to derive some
+              profit from it.
+            </p>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary quote__line">
+                  <use href="images/sprite.svg#line"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title quote__author">René Descartes</h3>
+                <p class="quote__organization">
+                  Born in Indre-et-Loire on 31 March 1596
+                </p>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <!-- 8)block-callout -->
+    <div class="container">
+      <div class="callout callout--primary">
+        <div class="grid grid--1x2">
+          <div class="callout__content">
+            <h2 class="callout__heading">Ready to get started?</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
+              officia repellendus laborum qui ut, repellat recusandae error
+              minus voluptatibus aspernatur.
+            </p>
+          </div>
+          <a
+            href="https://codewithmosh.com/"
+            class="btn btn--secondary btn--stretched"
+            >Get started</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- 9)footer -->
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <!-- https://validator.w3.org Error: "The element header must not appear as a descendant of the footer element." 
+               header => div -->
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Products</h2>
+            <img
+              class="icon collapsible__chevron"
+              src="images/chevron.svg"
+              alt=""
+            />
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Website Hosting</a></li>
+              <li><a href="#">Free Automated easy.jpg</a></li>
+              <li><a href="#">Migrations</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Company</h2>
+            <img
+              class="icon collapsible__chevron"
+              src="images/chevron.svg"
+              alt=""
+            />
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Affiliates</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Support</h2>
+            <img
+              class="icon collapsible__chevron"
+              src="images/chevron.svg"
+              alt=""
+            />
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Knowledge base</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <div class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">Domains</h2>
+            <img
+              class="icon collapsible__chevron"
+              src="images/chevron.svg"
+              alt=""
+            />
+          </div>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="#">Domain Checker</a></li>
+              <li><a href="#">Domain Transfer</a></li>
+              <li><a href="#">Free Domain</a></li>
+            </ul>
+          </div>
+        </section>
+        <!-- https://validator.w3.org Warning: "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed." 
+             section => div -->
+        <div class="footer__brand">
+          <img src="images/logo.svg" alt="" />
+          <p class="footer__copyright">Copyright 2022 Simon Lee</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

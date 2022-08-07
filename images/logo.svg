@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="209" height="54" viewBox="0 0 209 54">
+  <defs>
+    <style>
+      .cls-1 {
+       fill: #2584ff;
+       stroke: #2584ff;
+      }
+      .cls-2 {
+       fill: #CB46D3;
+       stroke: #CB46D3;
+       mix-blend-mode: lighten;
+      }
+      .cls-1, .cls-2 {
+       stroke-linejoin: round;
+       stroke-width: 10px;
+       fill-rule: evenodd;
+      }
+      .cls-3 {
+       font-size: 32px;
+       fill: #947F7F;
+       font-family: Inter;
+       font-weight: 700;
+      }
+    </style>
+  </defs>
+  <path id="" data-name="" class="cls-1" d="M22.244,42.2 L45.851,42.2, 32.037,17.02Z"/>
+  <path id="" data-name="" class="cls-2" d="M35.244,36.2 L58.851,36.2, 47.037,11.02Z"/>
+  <text id="lqfeng" class="cls-3" transform="translate(71.466 40.437) scale(0.923)">SIMON</text>
+</svg>
