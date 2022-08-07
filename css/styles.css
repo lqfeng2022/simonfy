@@ -749,10 +749,6 @@ a { text-decoration: none; }
     margin: 1rem 0;
 }
 
-.feature__image {
-    border: 5px solid lightgray;
-    border-radius: 5px;
-}
 
 /* Exchange the order of content and image of the 2nd.. */
 @media screen and (min-width: 768px) {
