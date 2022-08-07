@@ -406,7 +406,7 @@ a { text-decoration: none; }
 .quote__organization {
     color: var(--color-headings);
     opacity: .4;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: normal;
 }
 
@@ -439,7 +439,7 @@ a { text-decoration: none; }
 
 /* Testimonial */
 .testimonial {
-    padding: 5rem;
+    padding: 3.5rem;
 }
 
 .testimonial__image {
