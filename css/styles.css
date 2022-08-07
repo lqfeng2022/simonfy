@@ -486,7 +486,7 @@ a { text-decoration: none; }
 }
 
 .callout--primary {
-    background: var(--color-primary);
+    background: #947F7F;
     color: #fff;
     transform: translateY(5px);
 }
