@@ -481,7 +481,7 @@ a { text-decoration: none; }
 
 /* Callouts */
 .callout {
-    padding: 4rem;
+    padding: 3rem;
     border-radius: 5px;
 }
 
@@ -533,14 +533,14 @@ a { text-decoration: none; }
 
 .collapsible__chevron {
     transform: rotate(-90deg);
-    transition: transform 0.3s;
+    transition: transform 0.5s;
 }
 .collapsible__content {
     /* display: none; */
     max-height: 0; /* here overflow happend, */
     overflow: hidden;
     opacity: 0;
-    transition: all .3s;
+    transition: all .5s;
 }
 
 .collapsible--expanded .collapsible__chevron {
