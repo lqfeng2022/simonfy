@@ -610,7 +610,7 @@ a { text-decoration: none; }
     /* opacity: 0.8; */
     display: flex;
     flex-wrap: wrap;
-    padding: 0 1rem;
+    padding: 5px;
     justify-content: space-between;
     align-items: center;
 }
@@ -639,6 +639,7 @@ a { text-decoration: none; }
     /* box-shadow: .15s; */
     transition: box-shadow .15s;
     cursor: pointer; 
+    padding-right: 1rem;
 }
 
 .nav.collapsible--expanded .nav__toggler {
