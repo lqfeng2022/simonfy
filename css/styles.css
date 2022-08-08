@@ -605,8 +605,10 @@ a { text-decoration: none; }
 }
 
 /* Navigation Bar */
-.nav {
+.navBar {
     background: rgba(0, 0, 0, 0.8);
+}
+.nav {
     /* opacity: 0.8; */
     display: flex;
     flex-wrap: wrap;
