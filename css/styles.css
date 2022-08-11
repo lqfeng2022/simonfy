@@ -325,7 +325,7 @@ a { text-decoration: none; }
 }
 
 .plan--popular {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .plan--popular .card__header {
     position: relative;
