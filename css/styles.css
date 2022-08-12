@@ -811,7 +811,7 @@ a { text-decoration: none; }
     margin-top: 6rem;
     text-align: center;
 }
-.footer__brand imag { 
+.footer__brand img { 
     max-width: 230px; 
 }
 /* seems no difference with/without this setting  */
