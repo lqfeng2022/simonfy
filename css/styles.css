@@ -603,7 +603,7 @@ a { text-decoration: none; }
 
 /* Navigation Bar */
 .navBar {
-    background: rgba(0, 0, 0, 0.8);
+    background: #000;
 }
 .nav {
     /* opacity: 0.8; */
